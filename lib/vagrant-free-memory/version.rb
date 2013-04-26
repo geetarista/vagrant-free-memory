@@ -1,7 +1,3 @@
-module Vagrant
-  module Free
-    module Memory
-      VERSION = "0.0.1"
-    end
-  end
+module VagrantFreeMemory
+  VERSION = "0.0.1"
 end
