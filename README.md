@@ -16,4 +16,4 @@ vagrant free-memory [vm-name]
 
 ## License
 
-MIT. See [LICENSE.txt](LICENCE.txt)
+MIT. See [LICENSE.txt](LICENSE.txt)
