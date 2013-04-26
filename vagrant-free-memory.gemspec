@@ -5,7 +5,7 @@ require 'vagrant-free-memory/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "vagrant-free-memory"
-  spec.version       = Vagrant::Free::Memory::VERSION
+  spec.version       = VagrantFreeMemory::VERSION
   spec.authors       = ["Robby Colvin"]
   spec.email         = ["geetarista@gmail.com"]
   spec.description   = %q{Vagrant plugin example from the book Vagrant: Up and Running}
