@@ -1,29 +1,19 @@
-# Vagrant::Free::Memory
+# vagrant-free-memory
 
-TODO: Write a gem description
+Vagrant plugin example from the book Vagrant: Up and Running.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'vagrant-free-memory'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install vagrant-free-memory
+```shell
+vagrant plugin install vagrant-free-memory
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+```shell
+vagrant free-memory [vm-name]
+```
 
-## Contributing
+## License
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+MIT. See [LICENSE.txt](LICENCE.txt)
