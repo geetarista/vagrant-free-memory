@@ -1,9 +1,13 @@
-require "vagrant/free/memory/version"
+require 'vagrant-free-memory/version'
 
-module Vagrant
-  module Free
-    module Memory
-      # Your code goes here...
-    end
+begin
+  require 'vagrant'
+rescue LoadError
+  raise 'This plugin must run within Vagrant.'
+end
+
+module VagrantFreeMemory
+  class Plugin < Vagrant.plugin('2')
+    name 'vagrant-free-memory'
   end
 end
